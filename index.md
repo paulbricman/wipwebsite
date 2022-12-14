@@ -7,7 +7,7 @@ title: Home
   <div class="flex-item">
   </div>
   <div class="flex-item" style="flex-shrink: 1;">
-    <img src="/assets/img/profile.jpg" class="profile">
+    <img src="{{ site.baseurl }}/assets/img/profile.jpg" class="profile">
     <p class="letter">
       Dear visitor,
     </p>
@@ -18,7 +18,7 @@ title: Home
       Halfway through the twentieth century, however, the non-trivial challenge of reliably steering complex machinery towards certain behaviors and away from others was <a href="https://archive.org/details/norbert-wiener-cybernetics/page/177/mode/2up?q=%22In+all+these+stories+the+point+is+that%22">recognized</a> by the early pioneers of cybernetics (literally, <a href="https://www.etymonline.com/word/cybernetics"><i>steersman</i></a>). Today, the need for finding ways of skillfully wielding computation is <a href="https://80000hours.org/problem-profiles/artificial-intelligence/">more pressing than ever</a>, given the colossal scale of our latest creations. The space you just stumbled upon is dedicated precisely to the search of such techniques. I'm pleased to have you around.
     </p>
     <br/>
-    <img src="/assets/img/signature.png" class="signature"/>
+    <img src="{{ site.baseurl }}/assets/img/signature.png" class="signature"/>
   </div>
   <div class="flex-item">
   </div>
@@ -45,28 +45,28 @@ title: Home
   <div class="flex-item">
   <a href="/">
     I
-    <img src="/assets/img/Dialectics.png" class="cover"/>
+    <img src="{{ site.baseurl }}/assets/img/Dialectics.png" class="cover"/>
     Dialectics
   </a>
   </div>
   <div class="flex-item">
     II
-    <img src="/assets/img/Cosmology.png" class="cover-unavailable"/>
+    <img src="{{ site.baseurl }}/assets/img/Cosmology.png" class="cover-unavailable"/>
     Cosmology
   </div>
   <div class="flex-item">
     III
-    <img src="/assets/img/Linguistics.png" class="cover-unavailable"/>
+    <img src="{{ site.baseurl }}/assets/img/Linguistics.png" class="cover-unavailable"/>
     Linguistics
   </div>
   <div class="flex-item">
     IV
-    <img src="/assets/img/Ecology.png" class="cover-unavailable"/>
+    <img src="{{ site.baseurl }}/assets/img/Ecology.png" class="cover-unavailable"/>
     Ecology
   </div>
   <div class="flex-item">
     V
-    <img src="/assets/img/Anthropology.png" class="cover-unavailable"/>
+    <img src="{{ site.baseurl }}/assets/img/Anthropology.png" class="cover-unavailable"/>
     Anthropology
   </div>
 </div>
@@ -85,17 +85,17 @@ title: Home
 <div class="flex-container osmosis-body-section">
   <div class="flex-item">
     I
-    <img src="/assets/img/osm1.png" class="sketch"/>
+    <img src="{{ site.baseurl }}/assets/img/osm1.png" class="sketch"/>
     Attention Heads
   </div>
   <div class="flex-item">
     II
-    <img src="/assets/img/osm2.png" class="sketch"/>
+    <img src="{{ site.baseurl }}/assets/img/osm2.png" class="sketch"/>
     Skip Connections
   </div>
   <div class="flex-item">
     III
-    <img src="/assets/img/osm3.png" class="sketch"/>
+    <img src="{{ site.baseurl }}/assets/img/osm3.png" class="sketch"/>
     Autonomous Dynamics
   </div>
 </div>

@@ -1,4 +1,5 @@
 title: Paul Bricman
+baseurl: /wipwebsite
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: /articles/:short_year/:title
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
