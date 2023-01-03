@@ -46,7 +46,7 @@ title: Home
 
 <div class="flex-container t2c-body-section">
   <div class="flex-item">
-  <a href="/">
+  <a href="{{ site.baseurl }}/chronicom/dialectics">
     I
     <img src="{{ site.baseurl }}/assets/img/Dialectics.png" class="cover"/>
     Dialectics
