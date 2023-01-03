@@ -4,7 +4,7 @@ title: Dialectics
 description: The Chronicles of Computation, Vol. I
 ---
 
-The Chronicles of Computation, Vol. I
+[The Chronicles of Computation]({{ site.baseurl }}/#chronicom), Vol. I
 
 ## Reception
 
@@ -62,4 +62,4 @@ In the fifth and final chapter, we conduct a comprehensive interdisciplinary inv
 
 ## Acknowledgements
 
-Paul Bricman would like to thank the [Long-Term Future Fund](https://funds.effectivealtruism.org/funds/far-future) for financial support during the project, [Stability AI](https://stability.ai/) for providing the computational resources necessary to train DebateGPT, [Conjecture](https://www.conjecture.dev/) for providing the space to explore related ideas during a previous research fellowship, and [AI Safety Camp](https://aisafety.camp/) for providing context and resources for the entire team to investigate DebateGPT.
+Paul Bricman would like to thank the [Long-Term Future Fund](https://funds.effectivealtruism.org/funds/far-future) for financial support during the project, [Stability AI](https://stability.ai/) for providing the computational resources necessary to train DebateGPT, and [Conjecture](https://www.conjecture.dev/) for providing the space to explore related ideas during a previous research fellowship, and [AI Safety Camp](https://aisafety.camp/) for providing context and resources for the entire team to investigate DebateGPT.

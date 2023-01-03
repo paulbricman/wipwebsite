@@ -338,7 +338,7 @@ blockquote p, blockquote footer { padding-left: 2.5%; padding-right: 2.5%; }
 blockquote footer { font-size: 1.1rem; line-height: 1.78181818; margin-top: 1.78181818rem; margin-bottom: 1.78181818rem; text-align: right; }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
-@media (max-width: 1000px) { .flex-container { flex-direction: column; } .flex-item { margin-bottom: 10%; } p.letter { line-height: 2.5rem; } .bio-section { margin-bottom: 0; } .t2c-body-section { margin-bottom: 3rem; } h1.t2c { font-size: 50px; } h2.t2c { font-size: 20px; } .cover { height: 80%; } .cover-unavailable { height: 80%; } h1.osmosis { font-size: 100px; } h2.osmosis { font-size: 12.2px; } }
+@media (max-width: 1000px) { .flex-container { flex-direction: column; } .flex-item { margin-bottom: 10%; } p.letter { line-height: 2.1rem; font-size: 0.5em; } .bio-section { margin-bottom: 0; } .t2c-body-section { margin-bottom: 3rem; } h1.t2c { font-size: 50px; } h2.t2c { font-size: 20px; } .cover { height: 80%; } .cover-unavailable { height: 80%; } h1.osmosis { font-size: 100px; } h2.osmosis { font-size: 12.2px; } }
 
 header > nav.group, body footer { width: 100%; text-align: center; }
 
