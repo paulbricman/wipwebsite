@@ -8,7 +8,7 @@ description: The Chronicles of Computation, Vol. I
 
 ## Important Notice
 
-**This document is currently a work in progress. Please refrain from sharing it before it gets published, for ensuring an optimal reading experience.**
+**This document is currently a work in progress. Please refrain from sharing it before it gets published, for ensuring an optimal reading experience.** Still, if you are reading this in the interval of 5-19 January, consider joining me in the interdisciplinary audit documented in the final chapter by applying [here](https://aisafety.camp/).
 
 ## Reception
 
@@ -73,7 +73,7 @@ Paul Bricman would like to thank the [Long-Term Future Fund](https://funds.effec
 
 ### Kaleidoscope of Reasonableness
 
-Ask a scholar of pure mathematics, computer science, or formal logic what makes an instance of argumentation valid, and they will likely highlight the relevance of making sure that the conclusion follows logically from the premises for each individual reasoning step. More often than not, this implies relying on a host of approved inference types, while making sure to steer clear of degenerate ones (i.e. fallacies). This conception of reasonableness is often referred to as "geometrical," due to its appeal to only build on solid premises and construct arguments using an idealized set of operations.
+Ask a scholar of pure mathematics, computer science, or formal logic what makes an instance of argumentation valid, and they will likely highlight the relevance of making sure that the conclusion follows logically from the premises for each individual reasopning step. More often than not, this implies relying on a host of approved types of inference, while making sure to steer clear of degenerate ones (i.e. fallacies). This conception of reasonableness is often referred to as "geometrical," due to its appeal to only build on solid premises and construct arguments using an idealized set of operations.
 
 Ask a scholar of argumentation theory the same question, and—following a cursory smile indicating they have long been waiting for this—they will likely not hesitate to point out that there have been multiple prominent schools of thought over time which advocated different, often incompatible, conceptions of reasonableness. Each one is backed by a different rationale, has its own features and shortcomings, and has emerged in a different cultural setting, often separated by thousands of years and kilometers. Let us briefly sample this range of conceptions.
 
