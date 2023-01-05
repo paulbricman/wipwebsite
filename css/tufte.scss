@@ -138,7 +138,7 @@ blockquote footer { text-align: right; }
  * ============================== */
 
 // the caption of a figure.maincolumn is never hidden
-figure.maincolumn { margin-bottom: 3em; }
+figure.maincolumn { margin-bottom: 3em; margin-top: 3em; }
 figure.maincolumn > figcaption { display: block !important; }
 
 figure.fullwidth figcaption {
@@ -218,7 +218,7 @@ a {
 li > a {
     color: $text-color;
 }
-
+p
 /* Links: replicate underline that clears descenders */
 p > a:link, p > a:visited { color: inherit; }
 
@@ -410,6 +410,10 @@ caption, .booktabs caption {
 
     figure {
         max-width: 90%;
+    }
+
+    img.proof {
+        width: 100%;
     }
 
     figcaption, figure.fullwidth figcaption {

@@ -192,7 +192,7 @@ blockquote p { line-height: 1.75rem; }
 blockquote footer { text-align: right; }
 
 /* ============================== Figures and Margins ============================== */
-figure.maincolumn { margin-bottom: 3em; }
+figure.maincolumn { margin-bottom: 3em; margin-top: 3em; }
 
 figure.maincolumn > figcaption { display: block !important; }
 
@@ -221,8 +221,7 @@ a { color: #936309; text-decoration: none; }
 
 li > a { color: #111; }
 
-/* Links: replicate underline that clears descenders */
-p > a:link, p > a:visited { color: inherit; }
+p p > a:link, p > a:visited { color: inherit; }
 
 p > a:link, li > a:link { background: -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(currentColor, currentColor); background: linear-gradient(#fffff8, #fffff8), linear-gradient(#fffff8, #fffff8), linear-gradient(currentColor, currentColor); -webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px; -moz-background-size: 0.05em 1px, 0.05em 1px, 1px 1px; background-size: 0.05em 1px, 0.05em 1px, 1px 1px; background-repeat: no-repeat, no-repeat, repeat-x; text-shadow: 0.03em 0 #fffff8, -0.03em 0 #fffff8, 0 0.03em #fffff8, 0 -0.03em #fffff8, 0.06em 0 #fffff8, -0.06em 0 #fffff8, 0.09em 0 #fffff8, -0.09em 0 #fffff8, 0.12em 0 #fffff8, -0.12em 0 #fffff8, 0.15em 0 #fffff8, -0.15em 0 #fffff8; background-position: 0% 93%, 100% 93%, 0% 93%; }
 
@@ -282,7 +281,7 @@ caption, .booktabs caption { font-size: 90%; text-align: left; width: auto; marg
 .table-caption { float: right; clear: right; margin-right: -60%; width: 50%; margin-top: 0; margin-bottom: 0; font-size: 1.0rem; line-height: 1.96; }
 
 /* ============================== Small Screens ============================== */
-@media (max-width: 760px) { article { width: 90%; } figure { max-width: 90%; } figcaption, figure.fullwidth figcaption { margin-right: 0%; max-width: none; } blockquote p, blockquote footer { padding-right: 10%; } label.margin-toggle:not(.sidenote-number) { display: inline; color: #936309; } blockquote .sidenote, blockquote .marginnote, li .sidenote, li .marginnote, .sidenote, .marginnote { width: 100%; max-width: 100%; display: none; float: left; padding: 0 5%; margin: 1rem 0; vertical-align: baseline; } .margin-toggle:checked + .sidenote, .margin-toggle:checked + .marginnote { display: block; } label { cursor: pointer; } .table-caption { display: block; float: right; clear: both; width: 98%; margin-top: 1rem; margin-bottom: 0.5rem; margin-left: 1%; margin-right: 1%; vertical-align: baseline; position: relative; } div.table-wrapper, table, table.booktabs { width: 85%; } }
+@media (max-width: 760px) { article { width: 90%; } figure { max-width: 90%; } img.proof { width: 100%; } figcaption, figure.fullwidth figcaption { margin-right: 0%; max-width: none; } blockquote p, blockquote footer { padding-right: 10%; } label.margin-toggle:not(.sidenote-number) { display: inline; color: #936309; } blockquote .sidenote, blockquote .marginnote, li .sidenote, li .marginnote, .sidenote, .marginnote { width: 100%; max-width: 100%; display: none; float: left; padding: 0 5%; margin: 1rem 0; vertical-align: baseline; } .margin-toggle:checked + .sidenote, .margin-toggle:checked + .marginnote { display: block; } label { cursor: pointer; } .table-caption { display: block; float: right; clear: both; width: 98%; margin-top: 1rem; margin-bottom: 0.5rem; margin-left: 1%; margin-right: 1%; vertical-align: baseline; position: relative; } div.table-wrapper, table, table.booktabs { width: 85%; } }
 
 /* ============================== Nav and Footer Styling ============================== */
 .flex-container { width: 100%; display: flex; flex-direction: row; font-size: 30px; text-align: center; }
