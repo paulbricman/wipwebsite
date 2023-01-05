@@ -6,13 +6,15 @@ description: The Chronicles of Computation, Vol. I
 
 [The Chronicles of Computation]({{ site.baseurl }}/#chronicom), Vol. I
 
+## Important Notice
+
 **This document is currently a work in progress. Please refrain from sharing it before it gets published, for ensuring an optimal reading experience.**
 
 ## Reception
 
 Experts have been asked to bet social capital on this volume's relevance and usefulness through a brief public review. Should respondents (1) endorse this work when it actually turns out to be irrelevant, or (2) fail to endorse it when it actually turns out to be useful, then they would find themselves in an unfavorable position. Conversely, it would be favorable for them to make qualitative assessments which match reality. This first section can be seen as a spin on the peer review process inspired by prediction markets, meant to communicate to the reader an assessment of this work's standing informed by experts who are incentivized to weigh in sensibly.
 
-## Summary of contents
+## Summary of Contents
 
 In the first half of this volume, we slowly build towards a theoretical framework of language model reasoning centered around dialectics, the age-old practice of truth-seeking through regimented dialogue. In the second half, we attempt to apply the framework by exploring a number of specific use cases in AI safety.{% include sidenote.html id="mn-sidenotes" note='Side notes are used extensively to elaborate on jargon in the volume\'s body, in order to ensure that a broader readership is, both literally and figuratively, on the same page.'%}
 
