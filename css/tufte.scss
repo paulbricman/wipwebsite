@@ -138,7 +138,8 @@ blockquote footer { text-align: right; }
  * ============================== */
 
 // the caption of a figure.maincolumn is never hidden
-figure.maincolumn { margin-bottom: 3em; margin-top: 3em; }
+figure.maincolumn { margin-bottom: 3em; margin-top: 3em;
+                  }
 figure.maincolumn > figcaption { display: block !important; }
 
 figure.fullwidth figcaption {
@@ -602,7 +603,7 @@ div.epigraph > blockquote { margin-top: 3rem;
 
 div.epigraph > blockquote, div.epigraph > blockquote > p { font-style: italic; }
 
-div.epigraph > blockquote > footer {  font-style: normal;
+div.epigraph > blockquote > div {  font-style: normal;
                                       padding-left: 2.5%;
                                       padding-right: 2.5%;
                                       padding-top: 0;
@@ -610,13 +611,13 @@ div.epigraph > blockquote > footer {  font-style: normal;
                                       margin-bottom: 3.1182rem;
                                       text-align: right;}
 
-div.epigraph > blockquote > footer > cite { font-style: italic; }
+div.epigraph > blockquote > div > cite { font-style: italic; }
 /* end chapter epigraphs styles */
 
-blockquote p, blockquote footer{  padding-left: 2.5%;
+blockquote p, blockquote div{  padding-left: 2.5%;
                                   padding-right: 2.5%;}
 
-blockquote footer {  font-size: 1.1rem;
+blockquote div {  font-size: 1.1rem;
                 line-height: 1.78181818;
                 margin-top: 1.78181818rem;
                 margin-bottom: 1.78181818rem;
@@ -793,7 +794,7 @@ body.full-width {
         break-after: avoid;
     }
 
-    body header, body footer {
+    body header {
         display: none;
     }
 }

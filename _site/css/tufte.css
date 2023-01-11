@@ -329,14 +329,14 @@ div.epigraph > blockquote { margin-top: 3rem; margin-bottom: 3rem; }
 
 div.epigraph > blockquote, div.epigraph > blockquote > p { font-style: italic; }
 
-div.epigraph > blockquote > footer { font-style: normal; padding-left: 2.5%; padding-right: 2.5%; padding-top: 0; margin-top: 0.4455rem; margin-bottom: 3.1182rem; text-align: right; }
+div.epigraph > blockquote > div { font-style: normal; padding-left: 2.5%; padding-right: 2.5%; padding-top: 0; margin-top: 0.4455rem; margin-bottom: 3.1182rem; text-align: right; }
 
-div.epigraph > blockquote > footer > cite { font-style: italic; }
+div.epigraph > blockquote > div > cite { font-style: italic; }
 
 /* end chapter epigraphs styles */
-blockquote p, blockquote footer { padding-left: 2.5%; padding-right: 2.5%; }
+blockquote p, blockquote div { padding-left: 2.5%; padding-right: 2.5%; }
 
-blockquote footer { font-size: 1.1rem; line-height: 1.78181818; margin-top: 1.78181818rem; margin-bottom: 1.78181818rem; text-align: right; }
+blockquote div { font-size: 1.1rem; line-height: 1.78181818; margin-top: 1.78181818rem; margin-bottom: 1.78181818rem; text-align: right; }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 1000px) { .flex-container { flex-direction: column; } .flex-item { margin-bottom: 10%; } p.letter { line-height: 2.1rem; font-size: 0.5em; } .bio-section { margin-bottom: 0; } .t2c-body-section { margin-bottom: 3rem; } h1.t2c { font-size: 50px; } h2.t2c { font-size: 20px; } .cover { height: 80%; } .cover-unavailable { height: 80%; } h1.osmosis { font-size: 100px; } h2.osmosis { font-size: 12.2px; } }
@@ -369,7 +369,7 @@ body.full-width { width: 90%; padding: 0 5%; }
 
 @media print { *, *:before, *:after { background: transparent !important; color: #000 !important; box-shadow: none !important; text-shadow: none !important; } @page { margin: 0.75in 0.5in 0.75in 0.5in;
     orphans: 4;
-    widows: 2; } body { font-size: 12pt; padding-left: 5%; max-width: calc(5% + 1400px); } article { padding: 0; } /* this only applies when @media width > 760px */ .sidenote, .marginnote { width: 26.125vw; max-width: 365.75px; } html body span.print-footer { font-family: "Gill Sans", "Gill Sans MT", "Lato", Calibri, sans-serif; font-size: 9pt; margin-top: 22.4pt; padding-top: 4pt; border-top: 1px solid #000; } thead { display: table-header-group; } tr, img { break-inside: avoid; } article h2, article h2 h3, article h3, article h3 h4, article h4, article h4 h5 { break-after: avoid; } body header, body footer { display: none; } }
+    widows: 2; } body { font-size: 12pt; padding-left: 5%; max-width: calc(5% + 1400px); } article { padding: 0; } /* this only applies when @media width > 760px */ .sidenote, .marginnote { width: 26.125vw; max-width: 365.75px; } html body span.print-footer { font-family: "Gill Sans", "Gill Sans MT", "Lato", Calibri, sans-serif; font-size: 9pt; margin-top: 22.4pt; padding-top: 4pt; border-top: 1px solid #000; } thead { display: table-header-group; } tr, img { break-inside: avoid; } article h2, article h2 h3, article h3, article h3 h4, article h4, article h4 h5 { break-after: avoid; } body header { display: none; } }
 
 @media print and (max-width: 760px) { blockquote .sidenote, blockquote .marginnote, li .sidenote, li .marginnote, .sidenote, .marginnote { width: 100%; max-width: 100%; display: block; } }
 
