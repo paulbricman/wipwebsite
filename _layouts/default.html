@@ -4,7 +4,7 @@
   <body>
     {% include header.html %}
     <article class="group">
-      {{ content }}
+        {% include anchor_headings.html html=content anchorBody="" %}
     </article>
     {% include footer.html %}
   </body>

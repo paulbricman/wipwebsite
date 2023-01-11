@@ -22,16 +22,16 @@ In the first half of this volume, we slowly build towards a theoretical framewor
 
 In the first chapter, we devise an automated way of evaluating parties engaged in a debate of arbitrary length held in natural language. Our algorithm is inspired by the argumentation-theoretic notion of pragmatic validity and the epistemological notion of coherentism, yet its concrete implementation relies on heuristics for node centrality from network theory.
 
-1. [Kaleidoscope of Reasonableness]()
-2. [Beliefs as Means or Ends]()
-3. [Carving the Algorithm]()
-4. [ArgRank]()
+1. [Kaleidoscope of Reasonableness](#kaleidoscope-of-reasonableness)
+2. [Beliefs as Means or Ends](#beliefs-as-means-or-ends)
+3. [Carving the Algorithm](#carving-the-algorithm)
+4. [ArgRank](#argrank)
 
 ### Ch. II, Deliberative Arms Race
 
 In the second chapter, we describe in detail the process of obtaining DebateGPT, a language model fine-tuned to simulate increasingly pertinent debates by attempting to excel at the previously described evaluation. This novel training regime incorporates a self-play paradigm, runs mostly on synthetic data, and we assess has a non-zero chance of bootstrapping language model reasoning into superhuman territory, assuming a number of probable future advancements.
 
-1. [Brief Review of Language Models]()
+1. [Brief Review of Language Models](#brief-review-of-language-models)
 2. [Training DebateGPT]()
 3. [Hanson's Elephant]()
 4. [Ephemeral Shards & Autocurricular Activities]()
@@ -187,4 +187,8 @@ ArgRank first represents the utterances of the parties-to-be-rated as nodes in a
 
 Following the use of NLI models for weighing arcs, we then apply PageRank on the argument graph. This subroutine incorporated into ArgRank as-is assigns one numerical value to each utterance node. This can be interpreted as that statement's authority, with e.g. statements which are supported by other well-supported statements receiving a high rating. It is interesting to note that the sum of ratings is $$1.0$$, due to PageRank "preserving" the total amount of authority which is being iteratively passed around. Following this, we average the ratings of all the utterances contributed by each party, thus obtaining one single aggregate measure of reasonableness per party. Normalizing by the number of utterances per party, we obtain party ratings which also neatly sum to $$1.0$$. Finally, for a long deliberation, we can only include the last $$n$$ utterances contributed by each party as a "moving average" of the on-going situation.
 
-This is the meat of ArgRank—PageRank on the NLI-mediated argument graph, aggregated by party. The algorithm is quite straightforward in retrospect, yet required several conceptual leaps to reach, as the preceding sections attest. However, ArgRank requires arguments to be ranked. Coming up with arguments effectively—using each utterance as a strategic move to further your party's standing—is an altogether different matter. It involves identifying your opponent's epistemic weak points, crafting strong arguments to target them, and fending off the imminent counterattacks. In _Chapter 2_, we turn towards creating an automated "strategist" to carry out such intricate manuevers, a process also known as debating. As we shall see, pitting it against against its _own_ past arguments, in an uneasy turn of events, will prove essential to the process.
+This is the meat of ArgRank—essentially PageRank on the NLI-mediated argument graph, aggregated by party. The algorithm is quite straightforward in retrospect, yet required several conceptual leaps to reach, as the preceding sections attest. However, ArgRank first requires arguments to rate. Coming up with arguments effectively—using each utterance as a strategic move to further your party's standing—is an altogether different matter. It involves identifying your opponent's epistemic weak points, crafting strong arguments to target them, and fending off the imminent counterattacks. In _Chapter 2_, we turn towards creating an automated "strategist" to carry out such intricate manuevers, a process also known as debating. As we shall see, pitting it against against its _own_ past arguments, in an uneasy turn of events, will prove essential to the process.
+
+## Ch. II, Deliberative Arms Race
+
+### Brief Review of Language Models
